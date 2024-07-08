@@ -9,16 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lit-protocol/auth-helpers": "^6.0.5",
+    "@lit-protocol/constants": "^6.0.5",
+    "@lit-protocol/crypto": "^6.0.5",
+    "@lit-protocol/lit-auth-client": "^6.0.5",
+    "@lit-protocol/lit-node-client": "^6.0.5",
+    "@lit-protocol/types": "^6.0.5",
+    "ethers": "v5",
+    "next": "14.2.4",
+    "prompts": "^2.4.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "stytch": "^10.18.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.14.10",
+    "@types/prompts": "^2.4.9",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3"
   }
 }
