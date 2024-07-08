@@ -15,6 +15,7 @@
     "@lit-protocol/lit-auth-client": "^6.0.5",
     "@lit-protocol/lit-node-client": "^6.0.5",
     "@lit-protocol/types": "^6.0.5",
+    "@lit-protocol/wrapped-keys": "^6.0.5",
     "ethers": "v5",
     "next": "14.2.4",
     "prompts": "^2.4.2",

@@ -26,6 +26,9 @@ importers:
       '@lit-protocol/types':
         specifier: ^6.0.5
         version: 6.0.5
+      '@lit-protocol/wrapped-keys':
+        specifier: ^6.0.5
+        version: 6.0.5
       ethers:
         specifier: v5
         version: 5.7.2
@@ -325,6 +328,9 @@ packages:
 
   '@lit-protocol/uint8arrays@6.0.5':
     resolution: {integrity: sha512-ReAY2Z/kzfVdNWmT5nHK3J6R8goaDECrpixIPyvl2v4AsNAkH346+ThrRp2e17LqxoUxImBdGXxjiuKHb4D5cg==}
+
+  '@lit-protocol/wrapped-keys@6.0.5':
+    resolution: {integrity: sha512-65arnsUyiUPSUqS0W8duAzcGSkFRWybn7E5F1bovvaGh4+S78b05FqTD3u6H83n9VYlbCegNGs1IhdKTmeJa9A==}
 
   '@lit/reactive-element@1.6.3':
     resolution: {integrity: sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==}
@@ -2780,6 +2786,39 @@ snapshots:
       jszip: 3.10.1
       siwe: 2.3.2(ethers@5.7.2)
       tslib: 1.14.1
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@lit-protocol/wrapped-keys@6.0.5':
+    dependencies:
+      '@ethersproject/abstract-provider': 5.7.0
+      '@ethersproject/contracts': 5.7.0
+      '@ethersproject/providers': 5.7.2
+      '@lit-protocol/accs-schemas': 0.0.7
+      '@lit-protocol/bls-sdk': 6.0.5
+      '@lit-protocol/constants': 6.0.5
+      '@lit-protocol/crypto': 6.0.5
+      '@lit-protocol/ecdsa-sdk': 6.0.5
+      '@lit-protocol/encryption': 6.0.5
+      '@lit-protocol/logger': 6.0.5
+      '@lit-protocol/misc': 6.0.5
+      '@lit-protocol/nacl': 6.0.5
+      '@lit-protocol/sev-snp-utils-sdk': 6.0.5
+      '@lit-protocol/types': 6.0.5
+      '@lit-protocol/uint8arrays': 6.0.5
+      ajv: 8.16.0
+      bs58: 5.0.0
+      cross-fetch: 3.1.4
+      ethers: 5.7.2
+      jszip: 3.10.1
+      pako: 1.0.11
+      punycode: 2.3.1
+      siwe: 2.3.2(ethers@5.7.2)
+      tslib: 1.14.1
+      tweetnacl: 1.0.3
+      uint8arrays: 4.0.10
+      util: 0.12.5
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
